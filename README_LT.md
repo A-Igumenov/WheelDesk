@@ -26,6 +26,7 @@ Tai pagrindinis vientisas projekto dokumentas: idėja, reikalavimai, architektū
 10. [Radijo katalogas](#catalogue)
 11. [Priklausomybių licencijų inventorius](#inventory)
 12. [Versijų istorija](#history)
+13. [Savarankiškas kompiliavimas Windows aplinkoje](#windows-build)
 
 <a id="product"></a>
 ## 1. Produkto idėja ir apimtis
@@ -1221,4 +1222,90 @@ Ankstesnių versijų santraukos perimtos iš ankstesnių README, o ne nepriklaus
 | 0.4 | Paieška ir grojaraščių importas |
 | 0.3 | Radijas, šoninis garsumas, rusų kalba |
 | 0.2 | Biblioteka, atkūrimas, Now Playing ir viršeliai |
+
+[Pakeitimų žurnalas](CHANGELOG.md).
+
+<a id="windows-build"></a>
+## 13. Savarankiškas kompiliavimas Windows aplinkoje
+
+**Taip, išskleidus šaltinių ZIP galima pačiam sukurti WheelDesk programą ir jos Windows diegiklius.** Archyve yra programos kodas, priklausomybių užrakto failai, Tauri konfigūracija, ikonos ir būtini licencijų ištekliai. `node_modules`, `target` ir `dist` katalogai sukuriami diegiant priklausomybes ir kompiliuojant; jų archyve nereikia.
+
+Šis skyrius pridėtas tik į darbinio aplanko README. Esamas publikavimo ZIP nekeistas ir šios instrukcijos jame nėra.
+
+### Aplinka ir reikalingi įrankiai
+
+Instrukcija skirta **Windows 10/11 x64**. Patikrinta projekto aplinka: Node.js **24.19.0**, npm **11.17.0**, Rust **1.99.1**, MSVC įrankių grandinė.
+
+1. Įdiekite [Node.js LTS](https://nodejs.org/en/download) su npm.
+2. Įdiekite [Rust per rustup](https://www.rust-lang.org/tools/install). Naudokite **MSVC**, ne GNU įrankių grandinę.
+3. Įdiekite [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/), pažymėję **Desktop development with C++**, MSVC x64/x86 kompiliavimo įrankius ir Windows SDK. Vien VS Code redaktoriaus nepakanka.
+4. Turi būti įdiegtas [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/). Jo reikia programos langui.
+5. Po įrankių diegimo iš naujo atverkite PowerShell. Pirmam priklausomybių ir MSI / NSIS įrankių atsisiuntimui reikia interneto. Vien jau sukurtų EXE / MSI diegiklių nepakanka šaltiniams kompiliuoti.
+
+Sisteminiai reikalavimai aprašyti ir [oficialioje Tauri Windows instrukcijoje](https://v2.tauri.app/start/prerequisites/#windows).
+
+### Šaltinių aplankas ir priklausomybės
+
+Išskleiskite visą ZIP, pavyzdžiui, į `C:\Projects`. Atverkite vidinį `WheelDesk-1.3.0` aplanką, kuriame yra `package.json` ir `Cargo.toml`. Toliau pateiktą kelią pakeiskite savo išskleidimo vieta. Išlaikykite `assets`, `crates`, `src`, `src-tauri` ir `licenses` katalogus; Tauri naudoja jų santykinius kelius.
+
+```powershell
+Set-Location "C:\Projects\WheelDesk-1.3.0"
+node --version
+npm.cmd --version
+rustc --version
+cargo --version
+```
+
+Norint naudoti tą pačią Rust versiją, su kuria patikrinta Windows realizacija:
+
+```powershell
+rustup toolchain install 1.99.1-x86_64-pc-windows-msvc
+rustup override set 1.99.1-x86_64-pc-windows-msvc
+npm.cmd ci
+```
+
+`rustup override` parinktis taikoma šiam projekto aplankui. `npm.cmd ci` įdiegia `package-lock.json` užfiksuotas npm priklausomybes. Rust priklausomybes iš `Cargo.lock` atsisiųs Cargo pirmojo testo ar kompiliavimo metu. `corresponding-source` yra kartu pateikiami trečiųjų šalių šaltiniai licencijų sąlygoms vykdyti; tai nėra paruošta npm / Cargo talpykla.
+
+### Testai ir paleidimas kūrimo režimu
+
+Komandas vykdykite atskirai; jei komanda baigiasi klaida, ją išspręskite prieš tęsdami.
+
+```powershell
+npm.cmd test
+cargo test -p wheeldesk-core --locked
+npm.cmd run tauri -- dev
+```
+
+Paskutinė komanda paleidžia **visą darbalaukio programą**, o ne vien naršyklinę demonstraciją. Kūrimo režimą sustabdysite terminale paspaudę `Ctrl+C`.
+
+### Programos ir diegiklių sukūrimas
+
+Sustabdę kūrimo režimą, tame pačiame projekto aplanke vykdykite:
+
+```powershell
+npm.cmd run tauri -- build --bundles msi,nsis
+```
+
+Tauri automatiškai patikrina TypeScript tipus, sukuria sąsają, sukompiliuoja Rust programą ir paruošia abu Windows diegiklius. Pirmas kompiliavimas trunka ilgiau, nes kuriamos priklausomybės.
+
+| Rezultatas | Vieta projekto aplanke |
+| --- | --- |
+| Sukompiliuota programa | `target\release\wheeldesk.exe` |
+| EXE diegiklis | `target\release\bundle\nsis\WheelDesk_1.3.0_x64-setup.exe` |
+| MSI diegiklis | `target\release\bundle\msi\WheelDesk_1.3.0_x64_en-US.msi` |
+
+Diegiklių failų vardai čia pateikti dabartinei 1.3.0 konfigūracijai. Naudokite sukurtą EXE arba MSI diegiklį: jis kartu pateikia konfigūracijoje nurodytus licencijų išteklius. Išsaugokite trečiųjų šalių licencijas ir privalomus pranešimus.
+
+### Dažniausios Windows kliūtys
+
+| Klaida / požymis | Veiksmas |
+| --- | --- |
+| `npm.ps1 cannot be loaded` | Naudokite čia nurodytą `npm.cmd`; PowerShell vykdymo politikos keisti nereikia. Komanda yra `npm`, ne `nmp`. |
+| `node`, `cargo` arba `rustup` nerandamas | Patikrinkite įrankio diegimą ir PATH; iš naujo atverkite terminalą. |
+| `link.exe` nerandamas arba nepavyksta susieti programos | Patikrinkite C++ Build Tools darbo krūvį, MSVC ir Windows SDK; naudokite MSVC Rust įrankių grandinę. |
+| Nepavyksta paleisti `light.exe` kuriant MSI | Pagal Tauri instrukciją patikrinkite Windows pasirenkamą VBScript komponentą. Jei reikia tik EXE, vykdykite `npm.cmd run tauri -- build --bundles nsis`. |
+| Užimtas `1420` prievadas | Sustabdykite ankstesnį šio projekto kūrimo serverį ir bandykite dar kartą. |
+| Trūksta licencijų išteklių arba ikonų | Išskleiskite visą ZIP ir išlaikykite katalogų struktūrą. |
+
+Windows komanda nesukuria macOS ar Linux paketų. Ši instrukcija aprašo Windows x64 programos kopijos kompiliavimą.
 

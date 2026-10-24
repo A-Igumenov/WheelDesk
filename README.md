@@ -24,6 +24,7 @@ Documentation and recorded checks: **24 October 2026**. Automated checks: **154 
 10. [Radio catalogue](#catalogue)
 11. [Dependency licence inventory](#inventory)
 12. [Version history](#history)
+13. [Building the application on Windows](#windows-build)
 
 <a id="product"></a>
 ## 1. Product idea and scope
@@ -1140,4 +1141,90 @@ Historical summaries come from earlier README files, not independently verified 
 | 0.4 | Search and playlist import |
 | 0.3 | Radio, side volume, Russian |
 | 0.2 | Library, playback, Now Playing, artwork |
+
+[Changelog](CHANGELOG.md). This README is the complete English manual.
+
+<a id="windows-build"></a>
+## 13. Building the application on Windows
+
+**Yes: extracting the source ZIP and installing the required tools is sufficient to build WheelDesk and its Windows installers.** The archive includes source, lockfiles, Tauri configuration, icons and licence resources. `node_modules`, `target` and `dist` are generated during dependency installation and compilation.
+
+This section exists only in the working-directory README. The publication ZIP is unchanged and does not contain these instructions.
+
+### Prerequisites
+
+Target: **Windows 10/11 x64**. Verified project environment: Node.js **24.19.0**, npm **11.17.0**, Rust **1.99.1**, MSVC toolchain.
+
+1. Install [Node.js LTS](https://nodejs.org/en/download), including npm.
+2. Install [Rust with rustup](https://www.rust-lang.org/tools/install), selecting MSVC rather than GNU.
+3. Install [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) with **Desktop development with C++**, MSVC x64/x86 tools and Windows SDK. The VS Code editor alone is insufficient.
+4. Install [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/) if it is missing.
+5. Reopen PowerShell after installation. The initial npm/Cargo dependency and MSI/NSIS tool downloads need internet access. Existing EXE/MSI installers alone are not a compilation toolchain.
+
+See the [official Tauri Windows prerequisites](https://v2.tauri.app/start/prerequisites/#windows).
+
+### Extract and prepare
+
+Extract the complete ZIP, for example into `C:\Projects`. Enter its inner `WheelDesk-1.3.0` directory containing `package.json` and `Cargo.toml`. Replace the example path with your actual location. Preserve `assets`, `crates`, `src`, `src-tauri` and `licenses`: the configuration uses relative paths.
+
+```powershell
+Set-Location "C:\Projects\WheelDesk-1.3.0"
+node --version
+npm.cmd --version
+rustc --version
+cargo --version
+```
+
+To use the verified Windows Rust version and locked npm dependencies:
+
+```powershell
+rustup toolchain install 1.99.1-x86_64-pc-windows-msvc
+rustup override set 1.99.1-x86_64-pc-windows-msvc
+npm.cmd ci
+```
+
+The Rust override applies to this project directory. Cargo downloads dependencies from `Cargo.lock` on the first test/build. `corresponding-source` supplies third-party source for licence compliance; it is not an npm/Cargo cache.
+
+### Test and run
+
+Run commands separately and resolve any failure before continuing.
+
+```powershell
+npm.cmd test
+cargo test -p wheeldesk-core --locked
+npm.cmd run tauri -- dev
+```
+
+The last command starts the full desktop application. Stop development mode with `Ctrl+C` in the terminal.
+
+### Build the executable and installers
+
+After stopping development mode, run from the project root:
+
+```powershell
+npm.cmd run tauri -- build --bundles msi,nsis
+```
+
+Tauri checks TypeScript, builds the frontend, compiles Rust and creates both installers automatically. The first compilation takes longer because dependencies must also be compiled.
+
+| Output | Project-relative location |
+| --- | --- |
+| Compiled executable | `target\release\wheeldesk.exe` |
+| EXE installer | `target\release\bundle\nsis\WheelDesk_1.3.0_x64-setup.exe` |
+| MSI installer | `target\release\bundle\msi\WheelDesk_1.3.0_x64_en-US.msi` |
+
+These filenames reflect the current 1.3.0 configuration. Use the EXE/MSI installer to include configured licence resources. Preserve third-party licences and required notices.
+
+### Troubleshooting
+
+| Symptom | Action |
+| --- | --- |
+| PowerShell blocks `npm.ps1` | Use `npm.cmd`; no execution-policy change is required. The command is `npm`, not `nmp`. |
+| `node`, `cargo` or `rustup` missing | Check installation/PATH and reopen the terminal. |
+| Missing `link.exe` or linker failure | Check the C++ workload, MSVC and Windows SDK; use the MSVC Rust toolchain. |
+| MSI build cannot run `light.exe` | Check the Windows VBScript optional feature as described by Tauri. For EXE only, use `npm.cmd run tauri -- build --bundles nsis`. |
+| Port `1420` occupied | Stop the previous development server for this project. |
+| Missing licence resources/icons | Extract the entire ZIP and preserve its directory structure. |
+
+These commands build Windows x64 outputs; macOS and Linux packages require their respective build environments.
 
