@@ -1,0 +1,1161 @@
+{
+  "packages": [
+    {
+      "package": "at-spi2-core",
+      "version": "2.60.4-0ubuntu0.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "avahi",
+      "version": "0.8-18ubuntu1.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "ayatana-ido",
+      "version": "0.10.4-1build1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "bzip2",
+      "version": "1.0.8-6ubuntu0.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "cairo",
+      "version": "1.18.4-3",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "colord",
+      "version": "1.4.8-3",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "cups",
+      "version": "2.4.16-1ubuntu1.3",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "curl",
+      "version": "8.18.0-1ubuntu2.8",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "cyrus-sasl2",
+      "version": "2.1.28+dfsg1-9ubuntu3",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "dbus",
+      "version": "1.16.2-2ubuntu4",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "dconf",
+      "version": "0.49.0-4",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "enchant-2",
+      "version": "2.8.2+dfsg1-3build1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "gdk-pixbuf",
+      "version": "2.44.5+dfsg-4ubuntu1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "glib-networking",
+      "version": "2.80.1-1build2",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "glib2.0",
+      "version": "2.88.0-1ubuntu0.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "glycin",
+      "version": "2.1.5+ds-0ubuntu0.2",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "gnutls28",
+      "version": "3.8.12-2ubuntu1.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "graphite2",
+      "version": "1.3.14-11ubuntu1.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "gst-plugins-base1.0",
+      "version": "1.28.2-1ubuntu0.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "gstreamer1.0",
+      "version": "1.28.2-1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "gtk+3.0",
+      "version": "3.24.52-0ubuntu1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "harfbuzz",
+      "version": "12.3.2-2",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "hyphen",
+      "version": "2.8.8-7build4",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "ibus",
+      "version": "1.5.34~rc2-1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "icu",
+      "version": "78.2-2ubuntu1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "keyutils",
+      "version": "1.6.3-6ubuntu3",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "krb5",
+      "version": "1.22.1-2ubuntu4.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "lcms2",
+      "version": "2.17-1ubuntu0.2",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libayatana-appindicator",
+      "version": "0.5.94-1build1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libayatana-indicator",
+      "version": "0.9.4-2",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libdatrie",
+      "version": "0.2.14-1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libdbusmenu",
+      "version": "18.10.20180917~bzr492+repack1-4build1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libffi",
+      "version": "3.5.2-4",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libgcrypt20",
+      "version": "1.12.0-2ubuntu1.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libgudev",
+      "version": "238-7build1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libidn2",
+      "version": "2.3.8-4build1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libpng1.6",
+      "version": "1.6.57-1ubuntu0.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libproxy",
+      "version": "0.5.12-1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "librsvg",
+      "version": "2.61.3+dfsg-3ubuntu0.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libseccomp",
+      "version": "2.6.0-2ubuntu5",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libsecret",
+      "version": "0.21.7-2build1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libselinux",
+      "version": "3.9-4build1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libsoup3",
+      "version": "3.6.6-1ubuntu0.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libtasn1-6",
+      "version": "4.21.0-2",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libthai",
+      "version": "0.1.30-1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libunistring",
+      "version": "1.3-2build1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "libzstd",
+      "version": "1.5.7+dfsg-3",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "nettle",
+      "version": "3.10.2-1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "nghttp2",
+      "version": "1.68.0-2ubuntu0.2",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "openldap",
+      "version": "2.6.10+dfsg-1ubuntu5",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "openssl",
+      "version": "3.5.5-1ubuntu3.7",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "p11-kit",
+      "version": "0.26.2-2",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "pango1.0",
+      "version": "1.57.0-1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "rtmpdump",
+      "version": "2.4+20151223.gitfa8646d.1-3",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "sqlite3",
+      "version": "3.46.1-9ubuntu0.3",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "systemd",
+      "version": "259.9-0ubuntu0.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "util-linux",
+      "version": "2.41.3-3ubuntu2.2",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "webkit2gtk",
+      "version": "2.52.6-0ubuntu0.26.04.1",
+      "success": true,
+      "error": ""
+    },
+    {
+      "package": "gsettings-desktop-schemas",
+      "version": "50.0-1ubuntu2",
+      "success": true,
+      "error": ""
+    }
+  ],
+  "files": [
+    {
+      "file": "at-spi2-core_2.60.4-0ubuntu0.1.debian.tar.xz",
+      "sha256": "9f7dd978ef92ca29bf7576bf3cfeb12fd3e6c6489fe90e605c95e2e1c612e00c"
+    },
+    {
+      "file": "at-spi2-core_2.60.4-0ubuntu0.1.dsc",
+      "sha256": "f9734b6e24c307b3e311d600776f996295da4ef4312684132dd1ca22c506d494"
+    },
+    {
+      "file": "at-spi2-core_2.60.4.orig.tar.xz",
+      "sha256": "1a1f5ba9805917f41fc6aa6823dcf887a291d607a427e2d5afb6b5dfa65070c7"
+    },
+    {
+      "file": "avahi_0.8-18ubuntu1.1.debian.tar.xz",
+      "sha256": "63d189bc1a528eb94f9d20e6dbd041e85b58fe441bfee1be6a4a4ae6732e3631"
+    },
+    {
+      "file": "avahi_0.8-18ubuntu1.1.dsc",
+      "sha256": "8f681902a18f270adf18195c429a3d1d5fc6efbec27831cabb380321a8eb8d56"
+    },
+    {
+      "file": "avahi_0.8.orig.tar.gz",
+      "sha256": "060309d7a333d38d951bc27598c677af1796934dbd98e1024e7ad8de798fedda"
+    },
+    {
+      "file": "ayatana-ido_0.10.4-1build1.debian.tar.xz",
+      "sha256": "fa1609893db1b5c117df3fbc0bf59ac17ddfe789a725b3ef7283f68b2bc674df"
+    },
+    {
+      "file": "ayatana-ido_0.10.4-1build1.dsc",
+      "sha256": "b3418c64ae9ba648f2dc5551532a66c3845eae0e96fade933a4e929a4b63763f"
+    },
+    {
+      "file": "ayatana-ido_0.10.4.orig.tar.gz",
+      "sha256": "df64cb09005d2f273d37c57438216e9239d91ae26c9cd1a4341e8eb8b6c7d88e"
+    },
+    {
+      "file": "ayatana-ido_0.10.4.orig.tar.gz.asc",
+      "sha256": "140d6867ed4c245369176f9c805eab66868eac8344a1df77a7b2300fdbddff5b"
+    },
+    {
+      "file": "bzip2_1.0.8-6ubuntu0.1.debian.tar.bz2",
+      "sha256": "8d19f16fb4ab1d9b8214729a5a91c4cef8d08579449e80cc1d3a3d9cc78e24d8"
+    },
+    {
+      "file": "bzip2_1.0.8-6ubuntu0.1.dsc",
+      "sha256": "d894b5cb07c6d0fa559fbd474f140e876f7f99e5084a1bc657278ba0404b9c37"
+    },
+    {
+      "file": "bzip2_1.0.8.orig.tar.gz",
+      "sha256": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269"
+    },
+    {
+      "file": "cairo_1.18.4-3.debian.tar.xz",
+      "sha256": "25cb656a9c4165f36950b01710683efce6b5b0e30b80d81d519d7c3d1a2f7b2a"
+    },
+    {
+      "file": "cairo_1.18.4-3.dsc",
+      "sha256": "5dfb99f2896a2f23810cde3e80e930bd917079b143e4e984feb44ba018590d2a"
+    },
+    {
+      "file": "cairo_1.18.4.orig.tar.xz",
+      "sha256": "445ed8208a6e4823de1226a74ca319d3600e83f6369f99b14265006599c32ccb"
+    },
+    {
+      "file": "colord_1.4.8-3.debian.tar.xz",
+      "sha256": "7dae606f6b41529e853da9fb23fc92a1ee3a3780a911c0abd354d6e35d5b3759"
+    },
+    {
+      "file": "colord_1.4.8-3.dsc",
+      "sha256": "bb791ec4ab4f3a8e51f7437aa74fa247adaae01ae840311dfb3e708f3f472f6a"
+    },
+    {
+      "file": "colord_1.4.8.orig.tar.xz",
+      "sha256": "21500bd68975312a7f0f3ce6019d9f75f42aacaa75ca7115ec720b5445406896"
+    },
+    {
+      "file": "colord_1.4.8.orig.tar.xz.asc",
+      "sha256": "8a7c047510f003efeddc39c19b1fb1f5118185ad4722abe1b4f0be7f1a0a278f"
+    },
+    {
+      "file": "cups_2.4.16-1ubuntu1.3.debian.tar.xz",
+      "sha256": "08e5525d0e8b76dcd1842dc044b01f7cc9a962469dc7198f009508515b456312"
+    },
+    {
+      "file": "cups_2.4.16-1ubuntu1.3.dsc",
+      "sha256": "fa0ea02067fffe9d5125d00d22d4e0d7936ac52b788743db517baabeee94b4f6"
+    },
+    {
+      "file": "cups_2.4.16.orig.tar.gz",
+      "sha256": "0339587204b4f9428dd0592eb301dec0bf9ea6ea8dce5d9690d56be585aba92d"
+    },
+    {
+      "file": "cups_2.4.16.orig.tar.gz.asc",
+      "sha256": "94714372b58a5680d661613ad984444e555201b27bd562490c5a077d810b712d"
+    },
+    {
+      "file": "curl_8.18.0-1ubuntu2.8.debian.tar.xz",
+      "sha256": "3241e51764a9bbbb6ad336865f2d77d632538fb566146c36076ef04347b7c048"
+    },
+    {
+      "file": "curl_8.18.0-1ubuntu2.8.dsc",
+      "sha256": "121f5e78544934edf761b50277c97c21e69159e29420acc7b64b9fee56ea7208"
+    },
+    {
+      "file": "curl_8.18.0.orig.tar.gz",
+      "sha256": "e9274a5f8ab5271c0e0e6762d2fce194d5f98acc568e4ce816845b2dcc0cf88f"
+    },
+    {
+      "file": "curl_8.18.0.orig.tar.gz.asc",
+      "sha256": "449692ee6cbadc99762d1daa86b3faf95d60f82b1d45ea1a33e37adda4bd194b"
+    },
+    {
+      "file": "cyrus-sasl2_2.1.28+dfsg1-9ubuntu3.debian.tar.xz",
+      "sha256": "1941b432c3f4ad491b4394977a3ea3994e9d248ff4b8ffa0bcc8c0bec7c5f07f"
+    },
+    {
+      "file": "cyrus-sasl2_2.1.28+dfsg1-9ubuntu3.dsc",
+      "sha256": "31f3078127eb019aa785f1f32e9b0ae176738ce53e41762b18162f1d3a9d2443"
+    },
+    {
+      "file": "cyrus-sasl2_2.1.28+dfsg1.orig.tar.xz",
+      "sha256": "e796a5d85d1a85e1b433d43504e467f9075c7ebc0b45730a3996cf11b1deada4"
+    },
+    {
+      "file": "dbus_1.16.2-2ubuntu4.debian.tar.xz",
+      "sha256": "f1bccf4ec5d41440d6cb62fd0c60b02231c9b47de6a31e6a548beec1d42d6072"
+    },
+    {
+      "file": "dbus_1.16.2-2ubuntu4.dsc",
+      "sha256": "5092503804ba08d1c7c24b3601827fe6490ba981687f42971b1cab1e1f92d502"
+    },
+    {
+      "file": "dbus_1.16.2.orig.tar.xz",
+      "sha256": "0ba2a1a4b16afe7bceb2c07e9ce99a8c2c3508e5dec290dbb643384bd6beb7e2"
+    },
+    {
+      "file": "dconf_0.49.0-4.debian.tar.xz",
+      "sha256": "c3a094d7e086d63ef13b6adf3e74d9fc716997321d70a0413209a9ea5edfea8a"
+    },
+    {
+      "file": "dconf_0.49.0-4.dsc",
+      "sha256": "8ddd98085a13027899af357ba7c0f4f38f8725ebe59bf89afff9111d7847f245"
+    },
+    {
+      "file": "dconf_0.49.0.orig.tar.xz",
+      "sha256": "16a47e49a58156dbb96578e1708325299e4c19eea9be128d5bd12fd0963d6c36"
+    },
+    {
+      "file": "enchant-2_2.8.2+dfsg1-3build1.debian.tar.xz",
+      "sha256": "b618026af9492147004ad6487f2ef6422909a8209cc5aa524d94958127fdd78f"
+    },
+    {
+      "file": "enchant-2_2.8.2+dfsg1-3build1.dsc",
+      "sha256": "6a17b70ebf10a2ddfe20a5131cd98f6d33c2fa97255fe2a2f5f583c1489b31db"
+    },
+    {
+      "file": "enchant-2_2.8.2+dfsg1.orig.tar.xz",
+      "sha256": "bfc00f6db6e15f9fe5b782e9e680976385aad063d7b894de59590cc35d84e3d3"
+    },
+    {
+      "file": "gdk-pixbuf_2.44.5+dfsg-4ubuntu1.debian.tar.xz",
+      "sha256": "11bf231f34b9a1504ea0f02c71ec8c2ba3a8c6402d9096c1359d264a8b8ac312"
+    },
+    {
+      "file": "gdk-pixbuf_2.44.5+dfsg-4ubuntu1.dsc",
+      "sha256": "c794a55b02751287cbcd3b283c0f859bb8c9f1b4989273ec9f0ff13a17c0343a"
+    },
+    {
+      "file": "gdk-pixbuf_2.44.5+dfsg.orig.tar.xz",
+      "sha256": "1c5919d245d2686a8bdf6bff2c07ecd102e98bd580cfbb65b63c70d014f24030"
+    },
+    {
+      "file": "glib-networking_2.80.1-1build2.debian.tar.xz",
+      "sha256": "7b5ec01153ab867d8503179bfd0c263f0288e9333b21d197560bc69a2f0547de"
+    },
+    {
+      "file": "glib-networking_2.80.1-1build2.dsc",
+      "sha256": "404b0bcc082e7606edf79fec262ce043228fe8df9ef5df3ae4119c7be7281171"
+    },
+    {
+      "file": "glib-networking_2.80.1.orig.tar.xz",
+      "sha256": "b80e2874157cd55071f1b6710fa0b911d5ac5de106a9ee2a4c9c7bee61782f8e"
+    },
+    {
+      "file": "glib2.0_2.88.0-1ubuntu0.1.debian.tar.xz",
+      "sha256": "39412140b3e7b71d32475cad47f64f728f1e10df27bfacbbb5544d21b683d608"
+    },
+    {
+      "file": "glib2.0_2.88.0-1ubuntu0.1.dsc",
+      "sha256": "d018220f4ab35797b587a36031c72248ae9f3b25034d5caa0044dd13f6a5e37b"
+    },
+    {
+      "file": "glib2.0_2.88.0.orig-unicode-data.tar.xz",
+      "sha256": "4b55352323696c72187f855981ed1f7d1594a53f257f7803a928749cab9f9f44"
+    },
+    {
+      "file": "glib2.0_2.88.0.orig.tar.xz",
+      "sha256": "3546251ccbb3744d4bc4eb48354540e1f6200846572bab68e3a2b7b2b64dfd07"
+    },
+    {
+      "file": "glycin_2.1.5+ds-0ubuntu0.2.debian.tar.xz",
+      "sha256": "d2bc3bab3483d4012a22f7078e6579adf98f5a615d7a22743585b4caf4cadf64"
+    },
+    {
+      "file": "glycin_2.1.5+ds-0ubuntu0.2.dsc",
+      "sha256": "11529aca9fedc27e67f205524b4974008031fbbe6097df6b760655bacc6f3339"
+    },
+    {
+      "file": "glycin_2.1.5+ds.orig.tar.xz",
+      "sha256": "a3e2b6a04b185d7d1eae50bb5cb810c19ac9a5c05c05741ecf6f59c382ed4e76"
+    },
+    {
+      "file": "gnutls28_3.8.12-2ubuntu1.1.debian.tar.xz",
+      "sha256": "c6154db5511efc877f20b79753fbdb35c71b42e151b531f62b819db9466b3c45"
+    },
+    {
+      "file": "gnutls28_3.8.12-2ubuntu1.1.dsc",
+      "sha256": "05af95f4a219bfa817324ac40c2d94d499e0b082e4cea63ea11693790d90673e"
+    },
+    {
+      "file": "gnutls28_3.8.12.orig.tar.xz",
+      "sha256": "a7b341421bfd459acf7a374ca4af3b9e06608dcd7bd792b2bf470bea012b8e51"
+    },
+    {
+      "file": "gnutls28_3.8.12.orig.tar.xz.asc",
+      "sha256": "7a70d4071502974666f2f661e4ab06ba06076efd20468e4198f5f09c7ace41e2"
+    },
+    {
+      "file": "graphite2_1.3.14-11ubuntu1.1.debian.tar.xz",
+      "sha256": "344b8604e1c2572c63f4d9c2296eb81508be57b2f87c74c9972c5baf5913ea94"
+    },
+    {
+      "file": "graphite2_1.3.14-11ubuntu1.1.dsc",
+      "sha256": "aacabe733c50c79b44af9496a8f1c767b9aae7bbbfd132bbfab8b2a476c4d587"
+    },
+    {
+      "file": "graphite2_1.3.14.orig.tar.gz",
+      "sha256": "7a3b342c5681921ce2e0c2496509d30b5b078399d5a7bd2358f95166d57d91df"
+    },
+    {
+      "file": "gsettings-desktop-schemas_50.0-1ubuntu2.debian.tar.xz",
+      "sha256": "3f48c16c04f5f8ae6e75e3515fadd0a508f7407ce350c8e5ef4cc313fad32e06"
+    },
+    {
+      "file": "gsettings-desktop-schemas_50.0-1ubuntu2.dsc",
+      "sha256": "0e83c0a204cde9cbe2be293cf3a867e3467d12ad055f6b95e6e2fb2824ca60da"
+    },
+    {
+      "file": "gsettings-desktop-schemas_50.0.orig.tar.xz",
+      "sha256": "358f07cb253727650e132805df3c69f7bf90448040bce171b6f6f2cb1b9c37ef"
+    },
+    {
+      "file": "gst-plugins-base1.0_1.28.2-1ubuntu0.1.debian.tar.xz",
+      "sha256": "5b9b37a65575b66ff6350765750133deedcb504a2dc1334bee34e106d74594d0"
+    },
+    {
+      "file": "gst-plugins-base1.0_1.28.2-1ubuntu0.1.dsc",
+      "sha256": "0070e60b479224f04b0146b344329c3fe3ffdbd2c8aabd8fc9b551ef6e792e1d"
+    },
+    {
+      "file": "gst-plugins-base1.0_1.28.2.orig.tar.xz",
+      "sha256": "4db76b3619280037a4047de7d9dbb38613a4272dcc40efb333257124635a888d"
+    },
+    {
+      "file": "gst-plugins-base1.0_1.28.2.orig.tar.xz.asc",
+      "sha256": "69b7acdb10d6939f89b4a576b2b0bf497c646c675a172772b990b8acc4ebb887"
+    },
+    {
+      "file": "gstreamer1.0_1.28.2-1.debian.tar.xz",
+      "sha256": "507d052fb1ebb5834d9d9fc613fb9ce88da2beb6d46e6ab93cae55e4b766ff66"
+    },
+    {
+      "file": "gstreamer1.0_1.28.2-1.dsc",
+      "sha256": "95ef7effeb7f98210c054d55b68413b1de6ffa4f0abb19aef9402fc0be8a35d6"
+    },
+    {
+      "file": "gstreamer1.0_1.28.2.orig.tar.xz",
+      "sha256": "ce5cd44d4ffeafdcc3dddaa072b2179c0b7cb1abf4e6c5d18d4375f8a39fe491"
+    },
+    {
+      "file": "gstreamer1.0_1.28.2.orig.tar.xz.asc",
+      "sha256": "7e701d4929c68f905cdc1a2db02a708d7453f08030fcf7c0068de26629eb6f31"
+    },
+    {
+      "file": "gtk+3.0_3.24.52-0ubuntu1.debian.tar.xz",
+      "sha256": "f8ad3b251e5b17c2579f5ea5eda842c8f18e258a09dc2974c6f459d4eafd3d39"
+    },
+    {
+      "file": "gtk+3.0_3.24.52-0ubuntu1.dsc",
+      "sha256": "e728d7ed6115281cf76129a96f92e309d69eeafb696a88cf3a9884a0b1fa3dc1"
+    },
+    {
+      "file": "gtk+3.0_3.24.52.orig.tar.xz",
+      "sha256": "80931fa472a77b9a164f6740e3c0b444fac6770054632d35a7ff9d679e5e7b9f"
+    },
+    {
+      "file": "harfbuzz_12.3.2-2.debian.tar.xz",
+      "sha256": "e60831c79be0f1621c559e621d6149a21195731126fc7b8b71c0b7a7369cfeea"
+    },
+    {
+      "file": "harfbuzz_12.3.2-2.dsc",
+      "sha256": "d6e9e342b811b32697413fb8b9ad795b01227fc5ee7cd42680aad9e4e7877b4a"
+    },
+    {
+      "file": "harfbuzz_12.3.2.orig.tar.xz",
+      "sha256": "6f6db164359a2da5a84ef826615b448b33e6306067ad829d85d5b0bf936f1bb8"
+    },
+    {
+      "file": "hyphen_2.8.8-7build4.debian.tar.xz",
+      "sha256": "b8d245c6588e18dad647e6024707487a0f1aef4dfa37f7b92478e8a83b0ec252"
+    },
+    {
+      "file": "hyphen_2.8.8-7build4.dsc",
+      "sha256": "447e66684029e472cafe379c5255a23ac2e838a82b7a6804ff87bc1076dd971d"
+    },
+    {
+      "file": "hyphen_2.8.8.orig.tar.gz",
+      "sha256": "304636d4eccd81a14b6914d07b84c79ebb815288c76fe027b9ebff6ff24d5705"
+    },
+    {
+      "file": "ibus_1.5.34~rc2-1.debian.tar.xz",
+      "sha256": "ab8cc8440d227ef3a3b6907d7eca8a2374ff61a763739895b001f84c7f820b3f"
+    },
+    {
+      "file": "ibus_1.5.34~rc2-1.dsc",
+      "sha256": "3f0f2ef8bb9a50f74d9dbf9923a8aaff7df29bb9a1e20e53be89d5a5b5d88308"
+    },
+    {
+      "file": "ibus_1.5.34~rc2.orig.tar.gz",
+      "sha256": "6b94af30b257cb8d54fcbb0e72d56d0f2b7a4a62f4632459ee88ba078d28793d"
+    },
+    {
+      "file": "icu_78.2-2ubuntu1.debian.tar.xz",
+      "sha256": "9b858204fc6defa1d26d9fc9213197931b1c956215129cb499c6f4322794eb0f"
+    },
+    {
+      "file": "icu_78.2-2ubuntu1.dsc",
+      "sha256": "c1fb577273b2eb1feb11a8cc594229857bc7d673cae964d1aeca897d2c879d65"
+    },
+    {
+      "file": "icu_78.2.orig.tar.gz",
+      "sha256": "3e99687b5c435d4b209630e2d2ebb79906c984685e78635078b672e03c89df35"
+    },
+    {
+      "file": "icu_78.2.orig.tar.gz.asc",
+      "sha256": "09220c6136a2f451a7ba0fc6fb96c1d393464cd0ba44953085f9a23c454fae66"
+    },
+    {
+      "file": "keyutils_1.6.3-6ubuntu3.debian.tar.xz",
+      "sha256": "a25a617f1a613e08b527968d123d822a255734a9a9fe7ec5851700a96ff8bfd4"
+    },
+    {
+      "file": "keyutils_1.6.3-6ubuntu3.dsc",
+      "sha256": "ba44d62a5bcf68a8cbd872d8cabe7570b54a3b17101ea5ff260adf33de5c4302"
+    },
+    {
+      "file": "keyutils_1.6.3.orig.tar.gz",
+      "sha256": "a61d5706136ae4c05bd48f86186bcfdbd88dd8bd5107e3e195c924cfc1b39bb4"
+    },
+    {
+      "file": "krb5_1.22.1-2ubuntu4.1.debian.tar.xz",
+      "sha256": "d1786b70b659fd2004b560bdeca1d1f8f1cd745e4953ddf9cfe83dbdf4a9b425"
+    },
+    {
+      "file": "krb5_1.22.1-2ubuntu4.1.dsc",
+      "sha256": "934cc05d5bd8fe0211d250f45881a2d896238020e9876ebe612ea9540b5aec3a"
+    },
+    {
+      "file": "krb5_1.22.1.orig.tar.gz",
+      "sha256": "1a8832b8cad923ebbf1394f67e2efcf41e3a49f460285a66e35adec8fa0053af"
+    },
+    {
+      "file": "lcms2_2.17-1ubuntu0.2.debian.tar.xz",
+      "sha256": "4c2b51d9da799973848ab64491ab2bafdc93ffdde50cdbd9ba41d79689e07503"
+    },
+    {
+      "file": "lcms2_2.17-1ubuntu0.2.dsc",
+      "sha256": "5f8c6db80b2d7b1ca94441943dde8d5e7d024c462ee803e0636550a80200fa37"
+    },
+    {
+      "file": "lcms2_2.17.orig.tar.gz",
+      "sha256": "d11af569e42a1baa1650d20ad61d12e41af4fead4aa7964a01f93b08b53ab074"
+    },
+    {
+      "file": "libayatana-appindicator_0.5.94-1build1.debian.tar.xz",
+      "sha256": "ff9901ef1d658b940a899ebd09ae44277413f5965d774d876c33a51229135ee7"
+    },
+    {
+      "file": "libayatana-appindicator_0.5.94-1build1.dsc",
+      "sha256": "8c9804c1c8f290aa5e011a5c532e94b7cce77142bcf92c28739964545b9552a4"
+    },
+    {
+      "file": "libayatana-appindicator_0.5.94.orig.tar.gz",
+      "sha256": "6418df8ec13d7446b560f721a9c2e6f1eda949251899a5d4a6600cdc3c51cbf3"
+    },
+    {
+      "file": "libayatana-appindicator_0.5.94.orig.tar.gz.asc",
+      "sha256": "53043025129c196885f7ab2610c03c0391924d28f1c97154857d8dcb3dfa4e20"
+    },
+    {
+      "file": "libayatana-indicator_0.9.4-2.debian.tar.xz",
+      "sha256": "ef4387a53f311ae527a20e6c045b7ba8d8c2f596df90055cbe3812f496636de6"
+    },
+    {
+      "file": "libayatana-indicator_0.9.4-2.dsc",
+      "sha256": "97d243329f7572d2cb1a67c0072c9396055eb70973731cd19fae5fbd6842f19d"
+    },
+    {
+      "file": "libayatana-indicator_0.9.4.orig.tar.gz",
+      "sha256": "7f7ce3189357b02f54408e8224685cb10219ea4f557e840f67f83e0509acef3c"
+    },
+    {
+      "file": "libayatana-indicator_0.9.4.orig.tar.gz.asc",
+      "sha256": "868e49697dc4a70d2404196839a1c213ba893a19a65225af5b7a4661ba9d73b3"
+    },
+    {
+      "file": "libdatrie_0.2.14-1.debian.tar.xz",
+      "sha256": "9cde71692c59f4b440b0524ff309c564571b0b515b0ae63b0cfc1af6d730c9c1"
+    },
+    {
+      "file": "libdatrie_0.2.14-1.dsc",
+      "sha256": "ae0434bcde3663feaea221c5ac6539baa19152ca02dc80d7280aef8fa839a38d"
+    },
+    {
+      "file": "libdatrie_0.2.14.orig.tar.xz",
+      "sha256": "f04095010518635b51c2313efa4f290b7db828d6273e39b2b8858f859dfe81d5"
+    },
+    {
+      "file": "libdbusmenu_18.10.20180917~bzr492+repack1-4build1.debian.tar.xz",
+      "sha256": "eed16f6ab56b3ba2f770a54b8c543d65cacb39e28aa206e231225fcd5b037590"
+    },
+    {
+      "file": "libdbusmenu_18.10.20180917~bzr492+repack1-4build1.dsc",
+      "sha256": "85c4f6a937b170ae3c6b2321b470b993348424fc1517e12acc9635e30759add6"
+    },
+    {
+      "file": "libdbusmenu_18.10.20180917~bzr492+repack1.orig.tar.xz",
+      "sha256": "41298b926573419f21864205317461750b833c596af6ab0bd206e13336f8cee3"
+    },
+    {
+      "file": "libffi_3.5.2-4.debian.tar.xz",
+      "sha256": "b609c6c98ece9551817d00c570d6ced0553bcf261c4568750ca8be1c95e24177"
+    },
+    {
+      "file": "libffi_3.5.2-4.dsc",
+      "sha256": "537ef63c317c13600feee9398eb5137d5e8e82326330d85252f257c44ab161af"
+    },
+    {
+      "file": "libffi_3.5.2.orig.tar.gz",
+      "sha256": "dd19253d3007f366319a51d248a40c9e5fcace4498cbea990b566291844e4e30"
+    },
+    {
+      "file": "libgcrypt20_1.12.0-2ubuntu1.1.debian.tar.xz",
+      "sha256": "3a69f515107c3fbe1f17bf3d3c1cad308f6b20586ba9320a19f349f3fdbee75a"
+    },
+    {
+      "file": "libgcrypt20_1.12.0-2ubuntu1.1.dsc",
+      "sha256": "c12d5542fecbc5033228146ce622e207646705163efa4ca94f5113cf14ba291b"
+    },
+    {
+      "file": "libgcrypt20_1.12.0.orig.tar.bz2",
+      "sha256": "0311454e678189bad62a7e9402a9dd793025efff6e7449898616e2fc75e0f4f5"
+    },
+    {
+      "file": "libgcrypt20_1.12.0.orig.tar.bz2.asc",
+      "sha256": "effaf2dc9a1a2ccfc7eeb5091d7a7dd5af64436ceb4ee781e0678ae58e5d61d0"
+    },
+    {
+      "file": "libgudev_238-7build1.debian.tar.xz",
+      "sha256": "8ea07a4ee5b4702dab5710180857570255d333ec83bd88c0794cd763ea708f76"
+    },
+    {
+      "file": "libgudev_238-7build1.dsc",
+      "sha256": "70ebb4f2a200ba74df0b7a04e3509c52af27dff6c196f9c420b1b0888e3cc243"
+    },
+    {
+      "file": "libgudev_238.orig.tar.xz",
+      "sha256": "61266ab1afc9d73dbc60a8b2af73e99d2fdff47d99544d085760e4fa667b5dd1"
+    },
+    {
+      "file": "libidn2_2.3.8-4build1.debian.tar.xz",
+      "sha256": "6db2bd9e3b127c10d19ab7bf7c3ff4074c847e7c36ed3ad62fa6299017084cb1"
+    },
+    {
+      "file": "libidn2_2.3.8-4build1.dsc",
+      "sha256": "71c5ea4ac74a90f59a6c641a03b17f140c431aa02ca861ebd5897fde84d1fbe8"
+    },
+    {
+      "file": "libidn2_2.3.8.orig.tar.gz",
+      "sha256": "bbad1678d35d28e2c62e6a2577083829461402d9e47b908791c55314a5cb5e04"
+    },
+    {
+      "file": "libidn2_2.3.8.orig.tar.gz.asc",
+      "sha256": "8995cab7db361d9d6989eab26d9b521c74236960a5d78250121c8d369b013bd8"
+    },
+    {
+      "file": "libpng1.6_1.6.57-1ubuntu0.1.debian.tar.xz",
+      "sha256": "65718f0c030fa120dfb934fd030918ea8558908063c77e3e452aa89b4c82c87f"
+    },
+    {
+      "file": "libpng1.6_1.6.57-1ubuntu0.1.dsc",
+      "sha256": "c1b191f7a9f1f83a1106e8910d3331ee1c5304da747b83199014b0270f4cd2c5"
+    },
+    {
+      "file": "libpng1.6_1.6.57.orig.tar.gz",
+      "sha256": "4cbb7b0746edc1683c9581b373365e955133b7f1243f171b7d1535b4415dfedb"
+    },
+    {
+      "file": "libproxy_0.5.12-1.debian.tar.xz",
+      "sha256": "b279738bcab693d333602b462dc1a1559ca403e3c6c63251fd667acea04ed8de"
+    },
+    {
+      "file": "libproxy_0.5.12-1.dsc",
+      "sha256": "430fe4b6caa5afb3dccbf5a124b7b993602f34f4deea1bae5f5e99721aab6b69"
+    },
+    {
+      "file": "libproxy_0.5.12.orig.tar.gz",
+      "sha256": "fcbc3c58495983e5667344ce5ec1d64b34dedab632f43cc848e2a6ecc2bc2a91"
+    },
+    {
+      "file": "librsvg_2.61.3+dfsg-3ubuntu0.1.debian.tar.xz",
+      "sha256": "8373ce95243d7c433563cafa1c15492f1fb9d3e5f652d544c5c852e45c55a1a7"
+    },
+    {
+      "file": "librsvg_2.61.3+dfsg-3ubuntu0.1.dsc",
+      "sha256": "da351c54a0c9c2cd5e77638e7582968d9efffaffa95d31a0c2ba39a6c6f1fe5f"
+    },
+    {
+      "file": "librsvg_2.61.3+dfsg.orig.tar.xz",
+      "sha256": "60d36a7aed9a65cc0f664de33f2c663a7a0dbae8f5b3051b962ea7cdde0a3123"
+    },
+    {
+      "file": "libseccomp_2.6.0-2ubuntu5.debian.tar.xz",
+      "sha256": "13076780072032031635609c1d7df63c4a4ad33a04d3f751d286c20154dbf0d1"
+    },
+    {
+      "file": "libseccomp_2.6.0-2ubuntu5.dsc",
+      "sha256": "0c74c8329d4febd0b5c74466dc418d104a49f61fd117c3f19465fca826797529"
+    },
+    {
+      "file": "libseccomp_2.6.0.orig.tar.gz",
+      "sha256": "83b6085232d1588c379dc9b9cae47bb37407cf262e6e74993c61ba72d2a784dc"
+    },
+    {
+      "file": "libseccomp_2.6.0.orig.tar.gz.asc",
+      "sha256": "52e338fa958128293cbd25d2be189e34da41c4f4abbb1b641cf58f373c001f94"
+    },
+    {
+      "file": "libsecret_0.21.7-2build1.debian.tar.xz",
+      "sha256": "119b3aa192bf03886a3cd88c7868efb00e459a792098d05872e158fbe62ebe2c"
+    },
+    {
+      "file": "libsecret_0.21.7-2build1.dsc",
+      "sha256": "309334ee4ecf8919a3c54689b96c4ef66065f0ff07dbd819dfc57ab880e9147c"
+    },
+    {
+      "file": "libsecret_0.21.7.orig.tar.xz",
+      "sha256": "6b452e4750590a2b5617adc40026f28d2f4903de15f1250e1d1c40bfd68ed55e"
+    },
+    {
+      "file": "libselinux_3.9-4build1.debian.tar.xz",
+      "sha256": "7e32bfa1617f9ec5bca076d337a2495260cc56628a16813b910be7c81a4383be"
+    },
+    {
+      "file": "libselinux_3.9-4build1.dsc",
+      "sha256": "6649868ebdd0b235b8c50e2357055cb91da89b3c1b9805c1b7d8f345f22b3952"
+    },
+    {
+      "file": "libselinux_3.9.orig.tar.gz",
+      "sha256": "e7ee2c01dba64a0c35c9d7c9c0e06209d8186b325b0638a0d83f915cc3c101e8"
+    },
+    {
+      "file": "libselinux_3.9.orig.tar.gz.asc",
+      "sha256": "3529c5a905fdfa9e0a8e926ce0333f508213cccd9f6e35ca1011e37412042ca5"
+    },
+    {
+      "file": "libsoup3_3.6.6-1ubuntu0.1.debian.tar.xz",
+      "sha256": "338935465d45d2750760ff4fff6df5f78bed40b1517c33df1e5baeaa6c903f94"
+    },
+    {
+      "file": "libsoup3_3.6.6-1ubuntu0.1.dsc",
+      "sha256": "18adf5b4ed28e76b07f54d0dd5e195f19ecd4c88a1e473a0d46973d215025b4a"
+    },
+    {
+      "file": "libsoup3_3.6.6.orig.tar.xz",
+      "sha256": "51ed0ae06f9d5a40f401ff459e2e5f652f9a510b7730e1359ee66d14d4872740"
+    },
+    {
+      "file": "libtasn1-6_4.21.0-2.debian.tar.xz",
+      "sha256": "baeb1f6c25a1623e6b3834de85e2a69e81b82fdbd5bac9379fc5e699c83d9866"
+    },
+    {
+      "file": "libtasn1-6_4.21.0-2.dsc",
+      "sha256": "781fb83a70d7e0357e6a70e54e11712b471ba11804e119d621682fc741376a4a"
+    },
+    {
+      "file": "libtasn1-6_4.21.0.orig.tar.gz",
+      "sha256": "1d8a444a223cc5464240777346e125de51d8e6abf0b8bac742ac84609167dc87"
+    },
+    {
+      "file": "libtasn1-6_4.21.0.orig.tar.gz.asc",
+      "sha256": "a81037649b953c9ecb2e8f8fa24cb5c79456fd9af31499d6b753fa6569656807"
+    },
+    {
+      "file": "libthai_0.1.30-1.debian.tar.xz",
+      "sha256": "820cc8bbaf8e032393c2ff8c8422264922c384ca6a2920f00516051e3f2d9f37"
+    },
+    {
+      "file": "libthai_0.1.30-1.dsc",
+      "sha256": "dd3e8be0d6afc47875cc554be7c0afe76448555e5d1bee1cb620219427699aa0"
+    },
+    {
+      "file": "libthai_0.1.30.orig.tar.xz",
+      "sha256": "ddba8b53dfe584c3253766030218a88825488a51a7deef041d096e715af64bdd"
+    },
+    {
+      "file": "libunistring_1.3-2build1.debian.tar.xz",
+      "sha256": "532952853fc91014d1946bf6620761b3f145d0db854b9cb50e9fba67ca31a31b"
+    },
+    {
+      "file": "libunistring_1.3-2build1.dsc",
+      "sha256": "4421618798ca69760ab82a5ad3758636ffea6ca9df61a80416114d83fd0bb9f0"
+    },
+    {
+      "file": "libunistring_1.3.orig.tar.xz",
+      "sha256": "f245786c831d25150f3dfb4317cda1acc5e3f79a5da4ad073ddca58886569527"
+    },
+    {
+      "file": "libunistring_1.3.orig.tar.xz.asc",
+      "sha256": "62201b5b7ce9c0b033c50cefa5d7769dff4b7cee8205572e0cf917653cae9e33"
+    },
+    {
+      "file": "libzstd_1.5.7+dfsg-3.debian.tar.xz",
+      "sha256": "ada18b02a46878f2f0a845fd003179ab9591f7f96f0b984db06a024ab46ae81f"
+    },
+    {
+      "file": "libzstd_1.5.7+dfsg-3.dsc",
+      "sha256": "e32b7bb90ac7b312238add6abb77023cec6f59385b1c9a78b41b69ea2ef5001a"
+    },
+    {
+      "file": "libzstd_1.5.7+dfsg.orig.tar.xz",
+      "sha256": "0c092ef267edce57ba7f3f2645c861f72eaf5e76273c6c3632869423464b90a5"
+    },
+    {
+      "file": "nettle_3.10.2-1.debian.tar.xz",
+      "sha256": "6f5be658d8bfbc5ffd3c75bd15b8a40fd51c5dd4ae10519d7835be135944f0a7"
+    },
+    {
+      "file": "nettle_3.10.2-1.dsc",
+      "sha256": "e2f713973191da5d021759173f2176c21abb5f9420df45cd93a8ff058d62493f"
+    },
+    {
+      "file": "nettle_3.10.2.orig.tar.gz",
+      "sha256": "fe9ff51cb1f2abb5e65a6b8c10a92da0ab5ab6eaf26e7fc2b675c45f1fb519b5"
+    },
+    {
+      "file": "nettle_3.10.2.orig.tar.gz.asc",
+      "sha256": "3496de6ba5685733aaab2e4e611ea5860fdd76964c56c995f5a0b4c2ec5084ae"
+    },
+    {
+      "file": "nghttp2_1.68.0-2ubuntu0.2.debian.tar.xz",
+      "sha256": "3b25d46909e26fa04d6d81d5ff7032b094b33e086ef2060889a2d029cc75f54f"
+    },
+    {
+      "file": "nghttp2_1.68.0-2ubuntu0.2.dsc",
+      "sha256": "45a9d539b2abc000cbe6d8b40a1d26f10c29550e59393c33acc84e5fc3919e69"
+    },
+    {
+      "file": "nghttp2_1.68.0.orig.tar.gz",
+      "sha256": "2c16ffc588ad3f9e2613c3fad72db48ecb5ce15bc362fcc85b342e48daf51013"
+    },
+    {
+      "file": "nghttp2_1.68.0.orig.tar.gz.asc",
+      "sha256": "be8b3ff79aa9f374cb5b1127ac686520e0291627e4e9c5faac6d730640dc3155"
+    },
+    {
+      "file": "openldap_2.6.10+dfsg-1ubuntu5.debian.tar.xz",
+      "sha256": "73927f8ff5e24076cbee78701c2ed6e5d5060b85c5f79f0341386c2790624c88"
+    },
+    {
+      "file": "openldap_2.6.10+dfsg-1ubuntu5.dsc",
+      "sha256": "88dcaf31dac1a493430427d7d9ff2cb5c4138b1e0ab6c53c5be7c1d9c87f403c"
+    },
+    {
+      "file": "openldap_2.6.10+dfsg.orig.tar.xz",
+      "sha256": "e871102bda1e42155fd4d6be4825a297e1c593cb0907b84fc7dde888dc847877"
+    },
+    {
+      "file": "openssl_3.5.5-1ubuntu3.7.debian.tar.xz",
+      "sha256": "b9c389484ff47a3b1f584eb89c7442484df9295aa48e6e422243dd559b89c089"
+    },
+    {
+      "file": "openssl_3.5.5-1ubuntu3.7.dsc",
+      "sha256": "862f069310a08da930cf309d6a3bf603124eef15a71a7d13a15223dc75da7e6e"
+    },
+    {
+      "file": "openssl_3.5.5.orig.tar.gz",
+      "sha256": "b28c91532a8b65a1f983b4c28b7488174e4a01008e29ce8e69bd789f28bc2a89"
+    },
+    {
+      "file": "openssl_3.5.5.orig.tar.gz.asc",
+      "sha256": "eaef5b1054b84b8d1e6c61c9fc8867828be5ce686d0221580faf8bdc16489da9"
+    },
+    {
+      "file": "p11-kit_0.26.2-2.debian.tar.xz",
+      "sha256": "1e0be1ac6c3f47a44305855b1c54e22064516a258eef911119c4944d5530b87f"
+    },
+    {
+      "file": "p11-kit_0.26.2-2.dsc",
+      "sha256": "066316279c279ca964caa83d92b0f9263914fbbe3c329419e3eec9ffb30540fb"
+    },
+    {
+      "file": "p11-kit_0.26.2.orig.tar.xz",
+      "sha256": "09fd9f44da4813a3141e73d5e7cf7008e5660d0405f13d56c15e1da9dcecf828"
+    },
+    {
+      "file": "p11-kit_0.26.2.orig.tar.xz.asc",
+      "sha256": "a2c205bbac7857adc91eb2670304c2ac6649aa9eaf4aab81bf0e46e124f13d8b"
+    },
+    {
+      "file": "pango1.0_1.57.0-1.debian.tar.xz",
+      "sha256": "640e0f81fa5623faf64a499a64d8cca65bb0155f04d7e702466934c4b622ebca"
+    },
+    {
+      "file": "pango1.0_1.57.0-1.dsc",
+      "sha256": "d8a6e375236a70b7a84fb96b29c5f63b26a635beaa97ba2a19ec0e0c99430482"
+    },
+    {
+      "file": "pango1.0_1.57.0.orig.tar.xz",
+      "sha256": "890640c841dae77d3ae3d8fe8953784b930fa241b17423e6120c7bfdf8b891e7"
+    },
+    {
+      "file": "rtmpdump_2.4+20151223.gitfa8646d.1-3.debian.tar.xz",
+      "sha256": "8b1d25a5942e762d792ea1beacb0fda0f9761331fd46ce3874fe24c2360485e2"
+    },
+    {
+      "file": "rtmpdump_2.4+20151223.gitfa8646d.1-3.dsc",
+      "sha256": "8a593a016f6c816dac66ba78a49915af645056acf424146c3488edd27c52075c"
+    },
+    {
+      "file": "rtmpdump_2.4+20151223.gitfa8646d.1.orig.tar.gz",
+      "sha256": "5c032f5c8cc2937eb55a81a94effdfed3b0a0304b6376147b86f951e225e3ab5"
+    },
+    {
+      "file": "sqlite3_3.46.1-9ubuntu0.3.debian.tar.xz",
+      "sha256": "5d102099a3ed96c4e7edf6a53ef3a9121cd6b36c4809536a2033d348c54ea29c"
+    },
+    {
+      "file": "sqlite3_3.46.1-9ubuntu0.3.dsc",
+      "sha256": "bb0151d1479c9a498043a0c86b943805b0b6eeae0e997ed227280e717b848d5e"
+    },
+    {
+      "file": "sqlite3_3.46.1.orig-www.tar.xz",
+      "sha256": "648df41a8e532882b1905df45919aae4bafaf74c455f66bc86f1f52f45c8b8f0"
+    },
+    {
+      "file": "sqlite3_3.46.1.orig.tar.xz",
+      "sha256": "d0cdd2ece271b29e7ce18095745d892517ee26d0f270065b3a25c2e9eb11639c"
+    },
+    {
+      "file": "systemd_259.9-0ubuntu0.1.debian.tar.xz",
+      "sha256": "c58ab8296f580f8760afc945261917fa23dfb62df8a78121a5967c5b237a24cc"
+    },
+    {
+      "file": "systemd_259.9-0ubuntu0.1.dsc",
+      "sha256": "17ad848e882b6b91ac0d31300181bb4ec6b221077329b0c5296c9765cce769b5"
+    },
+    {
+      "file": "systemd_259.9.orig.tar.gz",
+      "sha256": "6ac77a1baf0539b835193eec46cdb1c73abb42d7f87aa977009150e9d8375757"
+    },
+    {
+      "file": "util-linux_2.41.3-3ubuntu2.2.debian.tar.xz",
+      "sha256": "e8f366168a1483616c1baf06420e341789340dcd2a98b9d8423f076d6cffa043"
+    },
+    {
+      "file": "util-linux_2.41.3-3ubuntu2.2.dsc",
+      "sha256": "b9eacaa3492855d3260d45cabbc82aa8313718bf60ec86f12cd2c74095c2de2b"
+    },
+    {
+      "file": "util-linux_2.41.3.orig.tar.xz",
+      "sha256": "3330d873f0fceb5560b89a7dc14e4f3288bbd880e96903ed9b50ec2b5799e58b"
+    },
+    {
+      "file": "webkit2gtk_2.52.6-0ubuntu0.26.04.1.debian.tar.xz",
+      "sha256": "ea13e2ad9a7093351ac379770692544f984d83f4720587bc2669bdc14c8cb33d"
+    },
+    {
+      "file": "webkit2gtk_2.52.6-0ubuntu0.26.04.1.dsc",
+      "sha256": "5115636753fca7cff0fe72f56fe120b0f07090ecdb98ab9991deb85b0a6e4adc"
+    },
+    {
+      "file": "webkit2gtk_2.52.6.orig.tar.xz",
+      "sha256": "179a2ea3f8f6edd4be7f31fdc55afc57bd0729f1fba648c61d4181539ac116fc"
+    },
+    {
+      "file": "webkit2gtk_2.52.6.orig.tar.xz.asc",
+      "sha256": "6694b1f87b10c4b799f2aadf20da7a0b6725b9c3b41b598ecba8bc35d54e7090"
+    }
+  ],
+  "source_directory": "corresponding-source/linux"
+}

@@ -1,0 +1,27 @@
+Linux bundled runtime notice
+
+The AppImage contains dynamically loaded Ubuntu libraries. Exact binary packages,
+versions, source versions, SHA256 hashes and copyright files are listed in inventory.json.
+The copyright files and common/ contain their actual licence terms. Shared libraries may
+be replaced with compatible modified versions after extracting the AppImage; running the
+extracted AppRun uses that extracted library set. Reverse engineering for debugging such
+modifications is not prohibited by WheelDesk terms. The application uses no restrictive EULA.
+
+Corresponding source for 59 source packages is supplied in the companion
+WheelDesk_1.3.0-source.zip, under corresponding-source/linux/. Source packages include
+upstream source archives, Ubuntu patches/metadata and .dsc files; source-inventory.json
+identifies the exact files and hashes. The source package of GCC is not included because
+its runtime libraries use the GCC Runtime Library Exception, whose terms are included
+with the gcc runtime package copyright file. The executable player is dynamically linked
+to these LGPL libraries; their source code is not modified. Bundling adjusts binary RPATH.
+
+The AppImage loader is type2-runtime commit fedfad5. Its original MIT notice and all linked
+library terms are in runtime-tools/. Its source, build definitions and exact patched libfuse
+3.15.0 source are in corresponding-source/runtime/ inside the same companion source ZIP.
+The build definitions permit rebuilding/relinking the loader against a modified LGPL library.
+The hook and launcher use their own upstream MIT terms. See runtime-tools/inventory.json.
+
+Distribute the companion source ZIP from the same download location as the AppImage,
+with equivalent access. Retain notices and licence texts. This provides actual source access,
+not a promise to obtain source later. System libraries installed separately by native package
+managers remain subject to the distribution terms.
