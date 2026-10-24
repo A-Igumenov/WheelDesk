@@ -2,7 +2,7 @@
 
 [Projekto saugykla](https://github.com/A-Igumenov/WheelDesk).
 
-[English](README_EN.md)
+[English](README.md)
 
 Muzikos grotuvas, sukurtas siekiant kompiuteryje perteikti **„iPod“ primenančią veikimo ir valdymo patirtį**: virtualų ratuką, hierarchinį meniu ir muzikos naršymą nenutraukiant atkūrimo. Skirtas **Windows, Linux ir macOS**. Tarpplatformiškumas – šios pradinės idėjos įgyvendinimo tikslas.
 
