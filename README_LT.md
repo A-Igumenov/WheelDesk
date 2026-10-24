@@ -1223,7 +1223,6 @@ Ankstesnių versijų santraukos perimtos iš ankstesnių README, o ne nepriklaus
 | 0.3 | Radijas, šoninis garsumas, rusų kalba |
 | 0.2 | Biblioteka, atkūrimas, Now Playing ir viršeliai |
 
-[Pakeitimų žurnalas](CHANGELOG.md).
 
 <a id="windows-build"></a>
 ## 13. Savarankiškas kompiliavimas Windows aplinkoje
