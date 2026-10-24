@@ -2,7 +2,7 @@
 
 [Project repository](https://github.com/A-Igumenov/WheelDesk).
 
-[Lietuviškai](README.md)
+[Lietuviškai](README_LT.md)
 
 WheelDesk is a desktop music player designed to bring an **iPod-like operating experience** to **Windows, Linux, and macOS**: a virtual wheel, hierarchical menus, a centre selection button, MENU navigation, and music browsing without interrupting playback. Cross-platform support is an implementation goal of that original idea.
 
