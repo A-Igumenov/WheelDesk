@@ -1142,7 +1142,7 @@ Historical summaries come from earlier README files, not independently verified 
 | 0.3 | Radio, side volume, Russian |
 | 0.2 | Library, playback, Now Playing, artwork |
 
-[Changelog](CHANGELOG.md). This README is the complete English manual.
+
 
 <a id="windows-build"></a>
 ## 13. Building the application on Windows
