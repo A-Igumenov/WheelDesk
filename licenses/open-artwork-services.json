@@ -1,0 +1,30 @@
+{
+  "reviewed": "2026-10-24",
+  "services": [
+    {
+      "name": "MusicBrainz",
+      "software": "GPL-2.0-or-later server (not redistributed)",
+      "software_source": "https://github.com/metabrainz/musicbrainz-server",
+      "data": "CC0 core artist/recording/release/relationship metadata only",
+      "terms": "https://musicbrainz.org/doc/About/Data_License",
+      "usage": "https://musicbrainz.org/doc/MusicBrainz_API/Rate_Limiting",
+      "implementation": "Identifying User-Agent with https://github.com/A-Igumenov/WheelDesk contact, globally spaced requests >= 1.1 seconds, bounded requests and cached results; no supplementary ratings/tags/reviews used."
+    },
+    {
+      "name": "Wikidata",
+      "software": "MediaWiki / Wikibase free software (not redistributed)",
+      "data": "CC0 structured entity data",
+      "terms": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+      "usage": "https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Foundation_User-Agent_Policy",
+      "implementation": "Uses only album entity links and P18 image statements; no arbitrary image searches."
+    },
+    {
+      "name": "Wikimedia Commons",
+      "software": "MediaWiki GPL (not redistributed)",
+      "data": "per-file libre image licence, checked before display",
+      "terms": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "api": "https://www.mediawiki.org/wiki/API:Imageinfo",
+      "implementation": "Imageinfo extmetadata allowlist: CC0, public domain with Copyrighted=False, CC BY and CC BY-SA 2.0/2.5/3.0/4.0. NC/ND, unknown rights, additional restrictions and missing attribution are rejected. Source, creator, credit and licence URI are retained; full attribution is accessible on Now Playing and Legal. Only upload.wikimedia.org image URLs are accepted."
+    }
+  ]
+}

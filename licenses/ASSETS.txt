@@ -1,0 +1,16 @@
+WheelDesk original assets — MIT (see root LICENSE)
+
+Application icon: original procedural drawing, reproducible from assets/icon-design.py.
+Desktop icon variants are resized/encoded copies of that design.
+Prototype: original SVG composition in docs/assets/wheeldesk-prototype.svg;
+PNG is its rendered copy. Typeface in the application: Inter, licensed separately under OFL-1.1.
+
+Audio test fixtures: generated sine-wave signals with synthetic Test Artist / Test Album
+metadata; no commercial recordings, cover albums or station audio are distributed.
+The tiny embedded artwork fixture is synthetic test data.
+
+Radio catalogue metadata: CC0-1.0. See radio-catalogue-CC0.txt and catalogue-evidence.json.
+Station audio and trademarks are not relicensed. Station logo URLs have been removed;
+only individually verified libre album images may be loaded from Wikimedia Commons. See OPEN_ARTWORK.txt. Local user media is not part of this source distribution.
+
+The project name and educational goal do not grant rights to Apple trademarks or third-party media.

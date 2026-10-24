@@ -1,0 +1,27 @@
+Open artwork: MusicBrainz / Wikidata / Wikimedia Commons
+
+Only the core CC0 metadata fields from MusicBrainz and structured CC0 Wikidata entity
+statements are used. Their open-source server implementations are not redistributed.
+Image rights are checked per file using Commons imageinfo/extmetadata before showing it.
+
+Accepted: CC0-1.0, public-domain-mark with Copyrighted=False, CC-BY and CC-BY-SA
+2.0, 2.5, 3.0 or 4.0 with creator attribution. Unknown, NC, ND and extra restrictions
+are rejected. A free/open platform is not assumed to make every image public domain.
+
+The application preserves author, credit, source description-page URI, licence URI,
+first known official album title/date and MusicBrainz release-group URI. It displays a
+credit marker beside the image. Press i or click the credit line for full attribution;
+Settings / Legal also lists current-session attributions. Original image files are not
+modified; display resizing/cropping is declared. CC-BY-SA continues to govern the image
+and any applicable adaptation; the application's MIT licence does not relicense artwork.
+No fetched third-party album images are included in this source or installer distribution.
+
+Local embedded/folder artwork takes priority. First-album lookup is restricted to the
+currently displayed/playing song, with two concurrent jobs, a bounded queue and one-day
+positive/negative metadata cache. MusicBrainz starts are spaced by at least 1.1 seconds.
+Missing/incomplete metadata, network errors and licence failures return no remote image
+and never stop audio. First album means the earliest dated official Album in the matching
+recording's available metadata, excluding Compilation/Live/Remix/DJ-mix groups; a soundtrack
+can be an original album. It is not a claim of globally complete historical discography.
+
+Official terms, software-source links and implementation checks: open-artwork-services.json.
